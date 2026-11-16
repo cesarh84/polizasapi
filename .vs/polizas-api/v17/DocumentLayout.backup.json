@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\WAP\\polizasapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\validaciones\\primeraletramayusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:validaciones\\primeraletramayusculaattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\dtos\\credencialesusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:dtos\\credencialesusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\entidades\\poliza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +19,20 @@
       "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:controllers\\polizascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:datos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WAP\\polizasapi\\Migrations\\20261116022541_PolizaUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20261116022541_PolizaUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|c:\\wap\\polizasapi\\servicios\\serviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9118D22C-B70B-4075-AADE-0BB8434B2147}|polizas-api.csproj|solutionrelative:servicios\\serviciousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CredencialesUsuarioDTO.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\DTOs\\CredencialesUsuarioDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CredencialesUsuarioDTO.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\DTOs\\CredencialesUsuarioDTO.cs",
+              "RelativeToolTip": "DTOs\\CredencialesUsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T02:49:25.858Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -70,126 +75,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoMapperProfiles.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Utilidades\\AutoMapperProfiles.cs",
-              "RelativeDocumentMoniker": "Utilidades\\AutoMapperProfiles.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Utilidades\\AutoMapperProfiles.cs",
-              "RelativeToolTip": "Utilidades\\AutoMapperProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T03:42:48.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClienteDTO.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\DTOs\\ClienteDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\ClienteDTO.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\DTOs\\ClienteDTO.cs",
-              "RelativeToolTip": "DTOs\\ClienteDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T03:32:52.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PrimeraLetraMayusculaAttribute.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Validaciones\\PrimeraLetraMayusculaAttribute.cs",
-              "RelativeDocumentMoniker": "Validaciones\\PrimeraLetraMayusculaAttribute.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Validaciones\\PrimeraLetraMayusculaAttribute.cs",
-              "RelativeToolTip": "Validaciones\\PrimeraLetraMayusculaAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T03:13:38.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PolizasController.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Controllers\\PolizasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PolizasController.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Controllers\\PolizasController.cs",
-              "RelativeToolTip": "Controllers\\PolizasController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T02:02:35.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Poliza.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Entidades\\Poliza.cs",
-              "RelativeDocumentMoniker": "Entidades\\Poliza.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Entidades\\Poliza.cs",
-              "RelativeToolTip": "Entidades\\Poliza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:57:20.071Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\WAP\\polizasapi\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-15T01:12:33.937Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Datos\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Datos\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Datos\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Datos\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T01:09:10.737Z"
+              "WhenOpened": "2026-11-16T02:46:23.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Entidades\\Cliente.cs",
-              "RelativeDocumentMoniker": "Entidades\\Cliente.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Entidades\\Cliente.cs",
-              "RelativeToolTip": "Entidades\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Title": "20261116022541_PolizaUsuario.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Migrations\\20261116022541_PolizaUsuario.cs",
+              "RelativeDocumentMoniker": "Migrations\\20261116022541_PolizaUsuario.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Migrations\\20261116022541_PolizaUsuario.cs",
+              "RelativeToolTip": "Migrations\\20261116022541_PolizaUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T00:59:20.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\WAP\\polizasapi\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\WAP\\polizasapi\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T00:53:53.388Z",
+              "WhenOpened": "2026-11-16T02:25:41.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Poliza.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Entidades\\Poliza.cs",
+              "RelativeDocumentMoniker": "Entidades\\Poliza.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Entidades\\Poliza.cs",
+              "RelativeToolTip": "Entidades\\Poliza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T02:23:22.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PolizasController.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Controllers\\PolizasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PolizasController.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Controllers\\PolizasController.cs",
+              "RelativeToolTip": "Controllers\\PolizasController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T02:19:06.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T02:18:09.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\WAP\\polizasapi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\WAP\\polizasapi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-15T00:51:26.832Z",
+              "WhenOpened": "2026-11-16T02:16:52.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServicioUsuarios.cs",
+              "DocumentMoniker": "C:\\WAP\\polizasapi\\Servicios\\ServicioUsuarios.cs",
+              "RelativeDocumentMoniker": "Servicios\\ServicioUsuarios.cs",
+              "ToolTip": "C:\\WAP\\polizasapi\\Servicios\\ServicioUsuarios.cs",
+              "RelativeToolTip": "Servicios\\ServicioUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T02:13:32.907Z",
               "EditorCaption": ""
             }
           ]

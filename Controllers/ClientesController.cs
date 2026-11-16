@@ -1,27 +1,32 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using polizas_api.Datos;
 using polizas_api.DTOs;
 using polizas_api.Entidades;
+using polizas_api.Servicios;
 
 namespace polizas_api.Controllers
 {
     [ApiController]
     [Route("api/clientes")]
+    [Authorize]
     public class ClientesController : ControllerBase
     {
         private readonly ApplicationDbContext context;
         private readonly IMapper mapper;
+        private readonly IServicioUsuarios servicioUsuarios;
 
-
-        public ClientesController(ApplicationDbContext context, IMapper mapper)
+        public ClientesController(ApplicationDbContext context, IMapper mapper, IServicioUsuarios servicioUsuarios)
         {
             this.context = context;
             this.mapper = mapper;
+            this.servicioUsuarios = servicioUsuarios;
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IEnumerable<Cliente>> Get()
         {
             return await context.Clientes.ToListAsync();

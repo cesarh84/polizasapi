@@ -1,22 +1,28 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using polizas_api.Datos;
 using polizas_api.Entidades;
+using polizas_api.Servicios;
 
 namespace polizas_api.Controllers
 {
     [ApiController]
     [Route("api/polizas")]
+    [Authorize]
     public class PolizasController: ControllerBase  
     {
         private readonly ApplicationDbContext context;
+        private readonly IServicioUsuarios servicioUsuarios;
 
-        public PolizasController(ApplicationDbContext context)
+        public PolizasController(ApplicationDbContext context, IServicioUsuarios servicioUsuarios)
         {
             this.context = context;
+            this.servicioUsuarios = servicioUsuarios;
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<IEnumerable<Poliza>> Get()
         {
             return await context.Polizas.ToListAsync();
@@ -27,6 +33,7 @@ namespace polizas_api.Controllers
         {
             var poliza = await context.Polizas
                 .Include(x => x.Cliente)
+                .Include(x => x.Usuario)
                 .FirstOrDefaultAsync(x => x.Id == id);
             if (poliza == null)
             {
@@ -44,6 +51,14 @@ namespace polizas_api.Controllers
                 return BadRequest($"El cliente de la poliza id {poliza.Id} no existe");
             }
 
+            var usuario = await servicioUsuarios.ObtenerUsuario();
+
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+            
+            poliza.UsuarioId = usuario.Id;
             context.Add(poliza);
             await context.SaveChangesAsync();
             return Ok();
@@ -63,6 +78,13 @@ namespace polizas_api.Controllers
                 return BadRequest($"El cliente de la poliza id {poliza.Id} no existe");
             }
 
+            var usuario = await servicioUsuarios.ObtenerUsuario();
+
+            if (poliza.UsuarioId != usuario!.Id)
+            {
+                return Forbid();
+            }
+
             context.Update(poliza);
             await context.SaveChangesAsync();
             return Ok();
@@ -71,6 +93,7 @@ namespace polizas_api.Controllers
         [HttpDelete("{id:int}")] //api/polizas/id
         public async Task<ActionResult> Delete(int id)
         {
+
             var registrosBorrados = await context.Polizas.Where(x => x.Id == id).ExecuteDeleteAsync();
             if (registrosBorrados == 0)
             {

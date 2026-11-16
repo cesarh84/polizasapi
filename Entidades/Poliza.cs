@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace polizas_api.Entidades
 {
@@ -10,5 +11,7 @@ namespace polizas_api.Entidades
         public required string PolizaNombre { get; set; }
         public int ClienteId { get; set; }
         public Cliente? Cliente { get; set; }
+        public string? UsuarioId { get; set; }
+        public IdentityUser? Usuario { get; set; }
     }
 }
